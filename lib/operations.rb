@@ -16,6 +16,6 @@ end
 def not_safe?(speed)
   ## question ? (Code that runs when true) : (code which runs when false)
   
-  ? () : ( )
+ speed > 60 || speed < 40 ? (true) : (false)
 end 
 
